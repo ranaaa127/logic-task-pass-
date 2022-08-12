@@ -1,0 +1,64 @@
+#include <iostream.h>
+using namespace std;
+int main(){
+char liner[100], alpabetString[100];
+int j=0;
+cout<<"enter a string:";
+cin.getline(line,100);
+
+for(int i=0;line[i]!=0;;i++)
+{ 
+   if ((line[i]>='a' && line[i]<='z')
+{ alphabetString[j++]=line[i];
+}
+}
+alphabetString[j]=0;
+cout<<"output string :"<<alphabetString;
+return 0; }
+
+q2/ #include <stdio.h>
+#include<stdlib.h>
+
+void main() {
+int num1,num2,i,j,flag,temp,count=0;
+printf("enter the value of num1 and num2/n");
+scanf("%d%d,&num1,&num2);
+if(num2>2)
+{
+printf("there are no primes upto %d/n",num2);
+exit(0);
+}
+printf("prime numbers are/n");
+temp=num1;
+}
+flag=0;
+for(j=2;j<=i/2;j++)
+{
+flag=1;
+break;
+}
+}
+if (flag==0)
+{ printf("%d/n",i);
+count++;
+}
+}
+printf("number of primes between %d &%d/n" , temp,num2,count);
+
+
+
+q3/ #.include<iostream>
+#include<string>
+using namespace std:
+int count (string s, char c)
+{
+int res=0;
+for(int i=0;i<s.length();i++)
+if(s[i]==c)
+res++;
+return res:
+main()
+string str="rana"
+char c='e';
+cout<<count(ste,c)<<endl;
+retuen 0;
